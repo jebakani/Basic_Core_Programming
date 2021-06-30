@@ -9,6 +9,7 @@ namespace BasicCoreProgramming
         /// p2 - Executing leap year program
         /// p3 - Printing Tables for powers of two
         /// p4 - Executing Harmonic Number 
+        /// p5 - Prime factorization of the number
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -21,6 +22,7 @@ namespace BasicCoreProgramming
             Console.WriteLine("2) Leap Year");
             Console.WriteLine("3) Powers of 2");
             Console.WriteLine("4) Harmonic Number");
+            Console.WriteLine("5) Prime factoriation");
             Console.WriteLine("0) To Exit");
 
             //Read the choice from user
@@ -44,8 +46,14 @@ namespace BasicCoreProgramming
                     break;
                 //calling Harmonic number Program
                 case 4:
-                    HarmonicNumber.ReadInput();
+                    PrimeFactorization.ReadInput();
                     break;
+
+                //calling prime factor of number class
+                case 5:
+                    PrimeFactorization.ReadInput();
+                    break;
+
 
                 default:
                     break;
