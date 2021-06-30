@@ -10,6 +10,7 @@ namespace BasicCoreProgramming
         /// p3 - Printing Tables for powers of two
         /// p4 - Executing Harmonic Number 
         /// p5 - Prime factorization of the number
+        /// p6 - Computing quotient and remainder for two number
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -23,6 +24,7 @@ namespace BasicCoreProgramming
             Console.WriteLine("3) Powers of 2");
             Console.WriteLine("4) Harmonic Number");
             Console.WriteLine("5) Prime factoriation");
+            Console.WriteLine("6) Quotient and Remainder of Two number");
             Console.WriteLine("0) To Exit");
 
             //Read the choice from user
@@ -52,6 +54,11 @@ namespace BasicCoreProgramming
                 //calling prime factor of number class
                 case 5:
                     PrimeFactorization.ReadInput();
+                    break;
+
+                //calling method to find quotient and remainder
+                case 6:
+                    QuotientAndRemainder.ReadInput();
                     break;
 
 
