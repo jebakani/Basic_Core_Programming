@@ -11,6 +11,7 @@ namespace BasicCoreProgramming
         /// p4 - Executing Harmonic Number 
         /// p5 - Prime factorization of the number
         /// p6 - Computing quotient and remainder for two number
+        /// p7 - Swapping of two number
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -25,6 +26,7 @@ namespace BasicCoreProgramming
             Console.WriteLine("4) Harmonic Number");
             Console.WriteLine("5) Prime factoriation");
             Console.WriteLine("6) Quotient and Remainder of Two number");
+            Console.WriteLine("7) Swapping of two number");
             Console.WriteLine("0) To Exit");
 
             //Read the choice from user
@@ -61,6 +63,10 @@ namespace BasicCoreProgramming
                     QuotientAndRemainder.ReadInput();
                     break;
 
+               //calling method to invoke swapping process
+                case 7:
+                    SwappingTwoNumber.ReadInput();
+                    break;
 
                 default:
                     break;
