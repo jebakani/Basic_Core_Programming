@@ -11,9 +11,20 @@ namespace BasicCoreProgramming
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic C# programs");
+            Console.WriteLine("Choose a program:");
+            Console.WriteLine("1) Flip Coin");
+            Console.WriteLine("0) To Exit");
+            int choice = Convert.ToInt32(Console.ReadLine());
 
-            //calling static object for Flipcoin
-            FlipCoin.ReadInput();
+            switch (choice)
+            {
+                case 1:
+                    FlipCoin.ReadInput();
+                    break;
+                default:
+                    break;
+            }
+       
             Console.Read();
             
         }
