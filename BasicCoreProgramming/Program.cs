@@ -12,6 +12,7 @@ namespace BasicCoreProgramming
         /// p5 - Prime factorization of the number
         /// p6 - Computing quotient and remainder for two number
         /// p7 - Swapping of two number
+        /// p8 - Computing odd or even
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -27,6 +28,7 @@ namespace BasicCoreProgramming
             Console.WriteLine("5) Prime factoriation");
             Console.WriteLine("6) Quotient and Remainder of Two number");
             Console.WriteLine("7) Swapping of two number");
+            Console.WriteLine("8) Odd or Even");
             Console.WriteLine("0) To Exit");
 
             //Read the choice from user
@@ -66,6 +68,11 @@ namespace BasicCoreProgramming
                //calling method to invoke swapping process
                 case 7:
                     SwappingTwoNumber.ReadInput();
+                    break;
+
+                //Checking odd or even number
+                case 8:
+                    OddOrEven.ReadInput();
                     break;
 
                 default:
