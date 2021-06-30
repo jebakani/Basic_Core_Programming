@@ -14,6 +14,7 @@ namespace BasicCoreProgramming
         /// p7 - Swapping of two number
         /// p8 - Computing odd or even
         /// p9 - finding the alphabets is vowels or consonants
+        /// p10 - Finding largest of three number
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -31,8 +32,10 @@ namespace BasicCoreProgramming
             Console.WriteLine("7) Swapping of two number");
             Console.WriteLine("8) Odd or Even");
             Console.WriteLine("9) Volwels or Consonant");
+            Console.WriteLine("10) Largest of three number");
             Console.WriteLine("0) To Exit");
 
+            Console.WriteLine("Enter you choice:");
             //Read the choice from user
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -80,6 +83,11 @@ namespace BasicCoreProgramming
                 //Checking the alphabet is vowel or consonant
                 case 9:
                     VowelOrConsonant.ReadInput();
+                    break;
+
+                //Finding largest of three number
+                case 10:
+                    LargestNumber.ReadInput();
                     break;
 
                 default:
