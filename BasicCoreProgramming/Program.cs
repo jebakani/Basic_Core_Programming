@@ -46,7 +46,7 @@ namespace BasicCoreProgramming
                     break;
                 //calling Harmonic number Program
                 case 4:
-                    PrimeFactorization.ReadInput();
+                    HarmonicNumber.ReadInput();
                     break;
 
                 //calling prime factor of number class
