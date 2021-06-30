@@ -17,6 +17,7 @@ namespace BasicCoreProgramming
             Console.WriteLine("Choose a program:");
             Console.WriteLine("1) Flip Coin");
             Console.WriteLine("2) Leap Year");
+            Console.WriteLine("3) Powers of 2");
             Console.WriteLine("0) To Exit");
 
             //Read the choice from user
@@ -32,6 +33,11 @@ namespace BasicCoreProgramming
                 //calling leap year program
                 case 2:
                     LeapYear.ReadInput();
+                    break;
+
+                //calling powers of two program
+                case 3:
+                    PowersOfTwo.ReadInput();
                     break;
 
                 default:
