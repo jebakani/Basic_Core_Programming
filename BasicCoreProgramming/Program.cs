@@ -7,6 +7,8 @@ namespace BasicCoreProgramming
         /// <summary>
         /// P1- Executing the Flip coin program and finding the percentage
         /// p2 - Executing leap year program
+        /// p3 - Printing Tables for powers of two
+        /// p4 - Executing Harmonic Number 
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -18,6 +20,7 @@ namespace BasicCoreProgramming
             Console.WriteLine("1) Flip Coin");
             Console.WriteLine("2) Leap Year");
             Console.WriteLine("3) Powers of 2");
+            Console.WriteLine("4) Harmonic Number");
             Console.WriteLine("0) To Exit");
 
             //Read the choice from user
@@ -38,6 +41,10 @@ namespace BasicCoreProgramming
                 //calling powers of two program
                 case 3:
                     PowersOfTwo.ReadInput();
+                    break;
+                //calling Harmonic number Program
+                case 4:
+                    HarmonicNumber.ReadInput();
                     break;
 
                 default:
